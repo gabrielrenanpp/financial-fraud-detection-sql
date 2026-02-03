@@ -1,4 +1,8 @@
-# financial-fraud-detection-sql
+<p align="center">
+  <img src="assets/Fraud%20detection.png" alt="Financial Fraud Detection" width="700">
+</p>
+
+
 # Financial Fraud Detection — SQL Analysis
 
 End-to-end fraud analysis project developed using **SQL Server**, focused on identifying
@@ -25,18 +29,26 @@ The analysis was designed as if requested by **risk and fraud stakeholders**.
 
 ---
 
+
 ## 📊 Dataset Overview
 
-The project uses the **IEEE-CIS Fraud Detection dataset**, which contains:
+The project uses the **[IEEE-CIS Fraud Detection dataset](https://www.kaggle.com/c/ieee-fraud-detection)**, a large-scale, real-world dataset originally released for a Kaggle competition focused on identifying fraudulent online transactions.
+
+This dataset contains:
+
 - Transaction-level financial data
 - Identity and device-related attributes
 - Fraud labels (`isFraud`)
 
-Main tables used:
+Main tables used in this analysis:
+
 - `train_transaction`
 - `train_identity`
+
 
 ---
 
 ## 📂 Project Structure
+
+01 — Base Analytical CTE
 
