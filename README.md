@@ -50,5 +50,37 @@ Main tables used in this analysis:
 
 ## 📂 Project Structure
 
-01 — Base Analytical CTE
+---
+### Base Analytical CTE
+
+<p align="left">
+  <img src="https://github.com/gabrielrenanpp/Image/blob/main/first%20image.png?raw=true" width="600">
+</p>
+
+<p align="left">
+  <img src="https://github.com/gabrielrenanpp/Image/blob/main/Second%20Image.png?raw=true" width="600">
+</p>
+
+This query creates the analytical base used throughout the project.
+It standardizes the core transaction fields and ensures consistent data types for analysis.
+
+The column TransactionID uniquely identifies each transaction in the dataset.
+TransactionAmt represents the monetary value of the transaction and is cast to a numeric format suitable for aggregation.
+isFraud is the fraud label, where 1 indicates a fraudulent transaction and 0 indicates a legitimate one.
+TransactionDT represents the number of seconds elapsed since the first transaction in the dataset and is used for time-based analysis.
+DeviceType indicates the type of device used to perform the transaction.
+
+This base ensures that all subsequent queries operate on a clean and reliable structure.
+---
+ ### Overall Fraud Rate and Financial Exposure
+
+<p align="left">
+  <img src="https://github.com/gabrielrenanpp/Image/blob/main/Third%20Image.png?raw=true" width="600">
+</p>
+
+This query provides a high-level view of fraud exposure in the business.
+
+It shows how many transactions were processed, how many were fraudulent, and the percentage of fraud within total activity. In addition, it quantifies the total financial volume at risk by comparing fraudulent transaction value against overall transaction value.
+
+Together, these metrics allow stakeholders to quickly assess how frequent fraud is and how much money is exposed, supporting risk prioritization and strategic decision-making.
 
