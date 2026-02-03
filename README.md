@@ -5,12 +5,7 @@
 
 # Financial Fraud Detection — SQL Analysis
 
-End-to-end fraud analysis project built using **SQL Server**, focused on identifying
-fraud patterns, risk exposure, and behavioral signals in transactional data.
-
-This project simulates a real-world scenario where a financial institution aims to
-better understand fraudulent behavior in order to support risk mitigation and
-decision-making.
+This project is framed around a simulated financial institution that processes a high volume of online transactions and must continuously manage fraud risk to protect both revenue and customers. Using the IEEE-CIS Fraud Detection dataset as a proxy for real-world transactional and identity data, the analysis applies SQL Server to investigate fraud prevalence, financial exposure, and behavioral patterns across transactions. By combining transaction-level information with identity and device signals, the project mirrors how fraud and risk teams explore data to support monitoring strategies, risk mitigation, and informed business decision-making.
 
 ---
 
