@@ -126,3 +126,7 @@ This query examines an identity-related attribute as a potential fraud risk indi
 
 ## Conclusion
 This analysis shows that fraud, while representing a smaller share of total transactions, accounts for a disproportionate amount of financial exposure, reinforcing the need to evaluate risk beyond simple transaction counts. Fraudulent activity exhibits distinct transaction value patterns, with differences in average, median, and value-range distributions when compared to legitimate behavior. The presence of identity data is strongly associated with higher fraud detection, highlighting its importance in improving fraud visibility rather than increasing fraud occurrence. Additionally, fraud incidence varies across device types and identity segments, indicating that contextual and identity-related attributes are meaningful risk signals. Overall, the results demonstrate that effective fraud detection relies on combining transaction behavior with identity and device context to support data-driven risk mitigation and decision-making.
+
+# Suggested Next Steps
+
+Based on the results of this analysis, the next logical steps would be to further refine fraud monitoring by incorporating time-based patterns, expanding identity feature analysis, and validating these findings through simple rule-based thresholds. Additionally, these insights could be used as input features for a predictive fraud model, enabling proactive risk detection and more efficient prioritization of fraud prevention efforts.
