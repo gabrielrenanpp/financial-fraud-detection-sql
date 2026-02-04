@@ -130,3 +130,6 @@ This analysis shows that fraud, while representing a smaller share of total tran
 # Suggested Next Steps
 
 Based on the results of this analysis, the next logical steps would be to further refine fraud monitoring by incorporating time-based patterns, expanding identity feature analysis, and validating these findings through simple rule-based thresholds. Additionally, these insights could be used as input features for a predictive fraud model, enabling proactive risk detection and more efficient prioritization of fraud prevention efforts.
+
+To access my repository and the files used in this analysis, click [here](https://github.com/gabrielrenanpp/File).
+
